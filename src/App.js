@@ -7,9 +7,16 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <MainContent />
+      <div style={{ display: 'flex' }}>
+        <MainContent />
+        <MainContent />
+        <MainContent />
+        <MainContent />
+        <MainContent />
+        <MainContent />
+      </div>
       <Footer />
-    </div>
+    </div >
   );
 }
 
