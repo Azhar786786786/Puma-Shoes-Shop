@@ -5,6 +5,11 @@ import Footer from './Components/Footer';
 import Child from './Components/Child';
 
 function App() {
+  const name = {
+    firstName: "Azhar ",
+    MiddleName: "Hussain ",
+    LastName: "Khan"
+  };
   return (
     <div className="App">
       <Header />
@@ -16,6 +21,7 @@ function App() {
         <MainContent />
         <MainContent />
       </div> */}
+      <Child name={name.firstName} name2={name.MiddleName} name3={name.LastName} />
       <Child name="Azhar Hussain" name2="Qasim Khan" />
       <Footer />
     </div >
