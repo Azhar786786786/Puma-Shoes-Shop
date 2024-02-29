@@ -1,6 +1,6 @@
 import React from 'react';
 import './MainContent.css';
-import first from '../Assets/Images/Army-Trainer-Unisex-Sneakers.avif';
+//import first from '../Assets/Images/Army-Trainer-Unisex-Sneakers.avif';
 
 function MainContent(props) {
   return (
