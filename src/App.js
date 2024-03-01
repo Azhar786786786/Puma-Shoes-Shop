@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './Components/Header';
-import ShoeCentre from './src/Components/ShoeCentre';
+import ShoeCentre from './Components/ShoeCentre';
 import Footer from './Components/Footer';
 
 
