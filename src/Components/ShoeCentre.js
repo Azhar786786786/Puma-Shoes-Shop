@@ -1,5 +1,5 @@
 import React from 'react'
-import MainContent from './Components/MainContent';
+import MainContent from './MainContent';
 import first from '../Assets/Images/Army-Trainer-Unisex-Sneakers.avif';
 import second from '../Assets/Images/Blktop-Rider-Multicolor-Unisex-Sneakers.avif';
 import third from '../Assets/Images/Exotek-NITRO™-Base-Unisex-Sneakers.avif';
