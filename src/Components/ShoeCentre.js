@@ -24,6 +24,18 @@ import twentyone from '../Assets/Images/Enlighten-Strap-Womens-Training-Shoes.av
 import twentytwo from '../Assets/Images/Evolve-Run-Mesh-Youth-Sneakers.avif';
 import twentythree from '../Assets/Images/Ferrari-Drift-Cat-Decima-Youth-Motorsport-Sneakers.avif';
 import twentyfour from '../Assets/Images/Future-Rider-Soft-Womens-Sneakers.avif';
+import twentyfive from '../Assets/Images/Genetics-Youth-Basketball-Shoes.avif';
+import twentysix from '../Assets/Images/Genetics-Youth-Basketball-Shoes1.avif';
+import twentyseven from '../Assets/Images/Genetics-Youth-Basketball-Shoes2.avif';
+import twentyeight from '../Assets/Images/Genetics-Youth-Basketball-Shoes3.avif';
+import twentynine from '../Assets/Images/Manor-Mens-Sneakers.avif';
+import thirty from '../Assets/Images/Mayze-Embroidery-Youth-Sneakers.avif';
+import thirtyone from '../Assets/Images/Mayze-Embroidery-Youth-Sneakers1.avif';
+import thirtytwo from '../Assets/Images/Mayze-OW-Womens-Sneakers.avif';
+import thirtythree from '../Assets/Images/Mayze-OW-Womens-Sneakers1.avif';
+import thirtyfour from '../Assets/Images/Mayze-OW-Womens-Sneakers2.avif';
+import thirtyfive from '../Assets/Images/Mayze-Queen-of-Hearts-Womens-Sneakers.avif';
+import thirtysix from '../Assets/Images/Mayze-Retro-Resort-Womens-Sneakers.avif';
 
 const data = [
   { heading: "Trending Now", title: "AG-Youth-Football-Boots", price: 1000, img: first },
@@ -50,8 +62,22 @@ const data = [
   { heading: "Trending Now", title: "Enlighten-Strap-Womens-Training-Shoes", price: 3300, img: twentyone },
   { heading: "Trending Now", title: "Evolve-Run-Mesh-Youth-Sneakers", price: 5100, img: twentytwo },
   { heading: "Trending Now", title: "Ferrari-Drift-Cat-Decima-Youth-Motorsport-Sneakers", price: 3800, img: twentythree },
-  { heading: "Trending Now", title: "Future-Rider-Soft-Womens-Sneakers", price: 3500, img: twentyfour }
+  { heading: "Trending Now", title: "Future-Rider-Soft-Womens-Sneakers", price: 3500, img: twentyfour },
+
+  { heading: "Trending Now", title: "Genetics-Youth-Basketball-Shoes", price: 1000, img: twentyfive },
+  { heading: "Trending Now", title: "Genetics-Youth-Basketball-Shoes1", price: 2000, img: twentysix },
+  { heading: "Trending Now", title: "Genetics-Youth-Basketball-Shoes2", price: 2500, img: twentyseven },
+  { heading: "Trending Now", title: "Genetics-Youth-Basketball-Shoes3", price: 3900, img: twentyeight },
+  { heading: "Trending Now", title: "Manor-Mens-Sneakers", price: 4500, img: twentynine },
+  { heading: "Trending Now", title: "Mayze-Embroidery-Youth-Sneakers", price: 55000, img: thirty },
+  { heading: "Trending Now", title: "Mayze-Embroidery-Youth-Sneakers1", price: 6700, img: thirtyone },
+  { heading: "Trending Now", title: "Mayze-OW-Womens-Sneakers", price: 3400, img: thirtytwo },
+  { heading: "Trending Now", title: "Mayze-OW-Womens-Sneakers1", price: 3300, img: thirtythree },
+  { heading: "Trending Now", title: "Mayze-OW-Womens-Sneakers2", price: 5100, img: thirtyfour },
+  { heading: "Trending Now", title: "Mayze-Queen-of-Hearts-Womens-Sneakers", price: 3800, img: thirtyfive },
+  { heading: "Trending Now", title: "Mayze-Retro-Resort-Womens-Sneakers", price: 3500, img: thirtysix }
 ];
+
 function ShoeCentre() {
   return (
     <>
@@ -89,6 +115,24 @@ function ShoeCentre() {
         <MainContent heading={data[21].heading} title={data[21].title} price={data[21].price} imgdisp={data[21].img} />
         <MainContent heading={data[22].heading} title={data[22].title} price={data[22].price} imgdisp={data[22].img} />
         <MainContent heading={data[23].heading} title={data[23].title} price={data[23].price} imgdisp={data[23].img} />
+      </div>
+
+      <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px' }}>
+        <MainContent heading={data[24].heading} title={data[24].title} price={data[24].price} imgdisp={data[24].img} />
+        <MainContent heading={data[25].heading} title={data[25].title} price={data[25].price} imgdisp={data[25].img} />
+        <MainContent heading={data[26].heading} title={data[26].title} price={data[26].price} imgdisp={data[26].img} />
+        <MainContent heading={data[27].heading} title={data[27].title} price={data[27].price} imgdisp={data[27].img} />
+        <MainContent heading={data[28].heading} title={data[28].title} price={data[28].price} imgdisp={data[28].img} />
+        <MainContent heading={data[29].heading} title={data[29].title} price={data[29].price} imgdisp={data[29].img} />
+      </div>
+
+      <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px' }}>
+        <MainContent heading={data[30].heading} title={data[30].title} price={data[30].price} imgdisp={data[30].img} />
+        <MainContent heading={data[31].heading} title={data[31].title} price={data[31].price} imgdisp={data[31].img} />
+        <MainContent heading={data[32].heading} title={data[32].title} price={data[32].price} imgdisp={data[32].img} />
+        <MainContent heading={data[33].heading} title={data[33].title} price={data[33].price} imgdisp={data[33].img} />
+        <MainContent heading={data[34].heading} title={data[34].title} price={data[34].price} imgdisp={data[34].img} />
+        <MainContent heading={data[35].heading} title={data[35].title} price={data[35].price} imgdisp={data[35].img} />
       </div>
     </>
   )
