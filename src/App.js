@@ -14,6 +14,7 @@ function App() {
     <div className="App">
       <Header />
       <ShoeCentre />
+      <ShoeCentre />
       {/* <Child name={name.firstName} name2={name.MiddleName} name3={name.LastName} />
       <Child name="Azhar Hussain" name2="Qasim Khan" /> */}
       <Footer />
