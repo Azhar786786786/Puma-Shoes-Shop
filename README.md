@@ -92,3 +92,25 @@ git remote add origin git@github.com:Azhar786786786/Puma-Shoes-Shop.git
 git branch -M main
 
 git push -u origin main
+
+### `useful tips for all repository` for all project
+
+git init
+
+git add .
+
+git commit -m "commit message"
+
+git branch -M main
+
+git remote add origin <GitHub link>
+
+git push -u origin main
+
+git checkout -b my-new-branch
+
+git add .
+
+git commit -m "New branch"
+
+git push -u origin my-new-branch
